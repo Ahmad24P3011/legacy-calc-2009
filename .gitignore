@@ -1,8 +1,4 @@
-*.[oa]
-*~
-*.mk
-build/
-nbproject/
-.sconsign.dblite
-loanCalculator
-moc*.cc
+*.o
+*.exe
+calc
+*.out
