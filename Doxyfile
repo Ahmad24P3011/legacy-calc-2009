@@ -1,0 +1,23 @@
+# Doxyfile for Loan Calculator
+PROJECT_NAME           = "Loan Calculator"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "A C++ application for calculating loan payments and amortization schedules"
+
+OUTPUT_DIRECTORY       = ./docs
+INPUT                  = ./
+RECURSIVE              = NO
+FILE_PATTERNS          = *.h *.cpp
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+
+SEARCHENGINE           = YES
+GENERATE_TREEVIEW      = YES
